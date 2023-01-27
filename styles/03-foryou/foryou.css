@@ -1,0 +1,100 @@
+.foryou {
+  padding: 88px 0px 176px 0px;
+}
+
+.center {}
+
+.foryou__box {}
+
+.foryou-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.foryou-carousel__box {
+  padding: 60px 0px 32px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.foryou-card__box {
+  box-sizing: border-box;
+  width: 284px;
+  height: 355px;
+
+  box-shadow: 3px 4px 33px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 159px 20px 35px 20px;
+}
+
+.foryou-card__box:nth-child(1) {
+  background: top/contain no-repeat url('../../assets/images/cottage_1.png');
+}
+
+.foryou-card__box:nth-child(2) {
+  background: top/contain no-repeat url('../../assets/images/cottage_2.png');
+}
+
+.foryou-card__box:nth-child(3) {
+  background: top/contain no-repeat url('../../assets/images/cottage_3.png');
+}
+
+.foryou-card__box:nth-child(4) {
+  background: top/contain no-repeat url('../../assets/images/cottage_4.png');
+}
+
+.foryou-table {
+  width: 100%;
+  padding: 0px 0px 28px 0px;
+}
+
+.foryou-table-caption {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: left;
+  padding: 0px 0px 17px 0px;
+}
+
+.foryou-table-row {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.foryou-table-row td {}
+
+.foryou-cost {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.foryou-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 60px;
+  margin: 0px auto;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  background: #353D83;
+  border-radius: 30px;
+}
