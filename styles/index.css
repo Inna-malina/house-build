@@ -3,6 +3,8 @@
 @import './03-foryou/foryou.css';
 @import './04-mather-capital/mather-capital.css';
 @import './btn-circle.css';
+@import './05-advantages/set/set.css';
+@import './05-advantages/stock/stock.css';
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Montserrat', sans-serif; */
@@ -30,3 +32,4 @@ ul {
 a {
   text-decoration: none;
 }
+
