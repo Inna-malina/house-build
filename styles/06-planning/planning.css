@@ -1,0 +1,43 @@
+.planning {
+  padding: 122px 0px 138px 0px;
+  box-sizing: border-box;
+}
+
+.planning__box {
+  display: flex;
+  gap: 53px;
+}
+
+.planning-img {
+  display: block;
+  width: 50%;
+}
+
+.planning-descr__box {
+  width: 50%;
+}
+
+.planning-descr__box>:not(:last-child){
+  padding: 0px 0px 25px 0px;
+}
+
+.planning-descr-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  padding: 0px 0px 26px 0px;
+}
+
+.planning-descr-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.planning-descr-button {
+  margin: 20px 0px 0px auto;
+}
